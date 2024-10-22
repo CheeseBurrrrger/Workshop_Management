@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <VBox prefHeight="700.0" prefWidth="70.0" style="-fx-background-color: F6F5F2;">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: F6F5F2;" />
+<AnchorPane prefHeight="234.0" prefWidth="74.0">
+               <children>
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="234.0" layoutX="3.0" layoutY="1.0" stroke="#eaeaea" strokeType="INSIDE" width="70.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e0aed0" height="24.0" layoutX="24.8" layoutY="80.2" stroke="#e0aed0" strokeType="INSIDE" width="24.0" AnchorPane.bottomAnchor="132.60000000000002" AnchorPane.leftAnchor="24.8" AnchorPane.rightAnchor="24.799999999999997" AnchorPane.topAnchor="80.2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Rectangle>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="29.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="182.0" AnchorPane.leftAnchor="29.0" AnchorPane.rightAnchor="28.599999999999994" AnchorPane.topAnchor="38.0">
+                     <image>
+                        <Image url="@../../../../document/kuliah/home.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Button fx:id="homePanel" layoutX="25.0" layoutY="33.0" mnemonicParsing="false" onAction="#homeButton" opacity="0.0" prefHeight="16.0" prefWidth="16.0" text="Button">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Button>
+                  <ImageView blendMode="SRC_ATOP" fitHeight="16.0" fitWidth="16.0" layoutX="29.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../document/kuliah/shop.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Button fx:id="sparepartPanel" layoutX="25.0" layoutY="80.0" mnemonicParsing="false" onAction="#sparepartButton" opacity="0.0" prefHeight="16.0" prefWidth="16.0" text="Button">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="30.0" layoutY="119.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../document/kuliah/tools.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Button fx:id="servicePanel" layoutX="26.0" layoutY="115.0" mnemonicParsing="false" onAction="#serviceButton" opacity="0.0" prefHeight="5.0" prefWidth="5.0" text="Button">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="29.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../document/kuliah/calculator.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Button fx:id="salesPanel" layoutX="25.0" layoutY="152.0" mnemonicParsing="false" onAction="#historypanel" opacity="0.0" prefHeight="10.0" prefWidth="10.0" text="Button">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="29.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../document/kuliah/exit.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+                  <Button fx:id="exitPanel" layoutX="25.0" layoutY="197.0" mnemonicParsing="false" onAction="#exitButton" opacity="0.0" prefHeight="16.0" prefWidth="16.0" text="Button">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="73.0" prefHeight="700.0" prefWidth="827.0" style="-fx-background-color: F6F5F2;">
+         <children>
+            <Rectangle arcHeight="25.0" arcWidth="25.0" fill="WHITE" height="478.0" layoutY="121.0" stroke="#e0aed0" strokeType="INSIDE" width="810.0" />
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="WHITE" height="50.0" layoutX="176.0" layoutY="147.0" stroke="#e0aed0" strokeType="INSIDE" width="402.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Rectangle>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#e0aed0" height="50.0" layoutX="176.0" layoutY="147.0" stroke="#e0aed0" strokeType="INSIDE" width="200.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Rectangle>
+            <Text layoutX="394.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sparepart-In" textAlignment="CENTER" wrappingWidth="168.59375">
+               <font>
+                  <Font name="Verdana" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="195.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sparepart-Out">
+               <font>
+                  <Font name="Verdana" size="24.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="20.0" arcWidth="20.0" fill="#e0aed0" height="44.0" layoutX="87.0" layoutY="235.0" stroke="#e0aed0" strokeType="INSIDE" width="157.0" />
+            <Text fill="WHITE" layoutX="98.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Decrease">
+               <font>
+                  <Font name="Verdana" size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="partNumberOut" layoutX="95.0" layoutY="337.0" prefHeight="30.0" prefWidth="200.0" promptText="masukkan part number sparepart" />
+            <Text layoutX="95.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Part Number">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Text>
+            <TextField fx:id="quantityOut" layoutX="463.0" layoutY="334.0" prefHeight="30.0" prefWidth="200.0" promptText="masukkan kuantitas sparepart" />
+            <Text layoutX="463.0" layoutY="322.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Text>
+            <Button fx:id="sparepartOut" layoutX="176.0" layoutY="144.0" mnemonicParsing="false" opacity="0.0" prefHeight="50.0" prefWidth="200.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="sparepartIn" layoutX="379.0" layoutY="147.0" mnemonicParsing="false" onAction="#sparepartButton" opacity="0.0" prefHeight="50.0" prefWidth="200.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="labelGreeting" layoutX="2.0" layoutY="42.0" prefHeight="66.0" prefWidth="810.0">
+               <font>
+                  <Font name="Verdana Bold Italic" size="49.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e0aed0" height="50.0" layoutX="303.0" layoutY="433.0" stroke="#ea9bd1" strokeType="INSIDE" width="150.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Rectangle>
+            <Text layoutX="322.0" layoutY="468.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SUBMIT" textAlignment="CENTER" wrappingWidth="113.17724609375">
+               <font>
+                  <Font name="Verdana Bold" size="23.0" />
+               </font>
+            </Text>
+            <Button fx:id="submitButton" layoutX="304.0" layoutY="434.0" mnemonicParsing="false" onAction="#submitButton" opacity="0.0" prefHeight="50.0" prefWidth="150.0" text="Button">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label fx:id="labelInfoOut" alignment="CENTER" layoutX="303.0" layoutY="405.0" prefHeight="18.0" prefWidth="150.0" textAlignment="CENTER" textFill="LIME">
+               <font>
+                  <Font name="Verdana Bold" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

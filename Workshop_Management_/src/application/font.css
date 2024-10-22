@@ -1,0 +1,7 @@
+@font-face {
+    src: url('Lato-Light.ttf');
+}
+
+.root {
+    -fx-font-family: 'Lato Light';
+}
